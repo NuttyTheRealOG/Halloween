@@ -4,6 +4,23 @@
       <title>Spookie page</title>
     </head>
     <body>
+    <a-scene>
+
+      <a-assets>
+          <a-asset-item id="Test-obj" src="Test.obj"></a-asset-item>
+          <a-asset-item id="Test-mtl" src="Test.mtl"></a-asset-item>
+        </a-assets>
+
+      <a-sky color="#030303"></a-sky>
+      <a-entity obj-model="obj: #Test-obj; mtl: #Test-mtl" postion="0 0 0"></a-entity>
+
+
+      <a-entity position="0 0 3.8">
+                    <a-camera></a-camera>
+                  </a-entity>
+
+
+    </a-scene>
     </body>
 
 </html>
