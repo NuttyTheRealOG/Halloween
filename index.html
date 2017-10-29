@@ -6,11 +6,17 @@
     </head>
     <body>
     <a-scene>
-      <a-box wireframe="true" position="-1 0.5 1" width="1" height="1" depth="1" rotation= "0 45 0" color="#4CC3D9"></a-box>
+      <a-assets>
+    <a-asset-item id="Test-obj" src="Test.obj"></a-asset-item>
+    <a-asset-item id="Test" src="Test.mtl"></a-asset-item>
+  </a-assets>
+
         <a-sky color="#030303"></a-sky>
       <a-entity position="0 0 3.8">
               <a-camera></a-camera>
             </a-entity>
+            <a-entity postion="1 1 1" obj-model="obj: #Test-obj; mtl: #Test-mtl"></a-entity>
+
     </a-scene>
     </body>
 
