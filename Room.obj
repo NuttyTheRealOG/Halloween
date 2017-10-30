@@ -1,6 +1,6 @@
 # Blender v2.78 (sub 0) OBJ File: ''
 # www.blender.org
-mtllib Room.mtl
+mtllib ROOM.mtl
 o Cube_Cube.001
 v -1.356545 3.712263 -6.329924
 v -1.356545 -1.658186 -6.329924
